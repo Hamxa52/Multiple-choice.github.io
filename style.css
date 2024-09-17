@@ -116,11 +116,11 @@ label:hover {
 
 /* Button styling */
 button {
-    width: 100%; /* Two buttons per row */
+    width: 100%;
     padding: 10px;
     font-size: 1rem;
     color: rgb(0, 0, 0);
-    background-color:aqua;
+    background-color: aqua;
     border: none;
     border-radius: 20px;
     cursor: pointer;
