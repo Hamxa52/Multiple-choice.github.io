@@ -52,6 +52,7 @@ h2 {
     font-size: 1.25rem;
     margin-bottom: 20px;
     text-align: center;
+    color: aqua;
 }
 
 /* Answer options */
@@ -115,11 +116,7 @@ label:hover {
 
 /* Button styling */
 button {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    width: calc(50% - 20px); /* Two buttons per row */
+    width: 100%; /* Two buttons per row */
     padding: 10px;
     font-size: 1rem;
     color: rgb(0, 0, 0);
@@ -127,7 +124,7 @@ button {
     border: none;
     border-radius: 20px;
     cursor: pointer;
-    margin: 10px 175px;
+    margin: 10px;
     transition: background-color 0.3s ease, transform 0.5s;
     text-align: center;
 
@@ -256,7 +253,7 @@ button.hidden {
     button {
         font-size: 0.9rem;
         padding: 10px 15px;
-        width: calc(50% - 10px); /* Adjust width for smaller screens */
+        width: 100%; /* Adjust width for smaller screens */
     }
 
     #answers div {
