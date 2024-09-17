@@ -249,13 +249,6 @@ button.hidden {
     h1 {
         font-size: 1.5rem;
     }
-
-    button {
-        font-size: 0.9rem;
-        padding: 10px 15px;
-        width: 100%; /* Adjust width for smaller screens */
-    }
-
     #answers div {
         flex: 1 1 100%; /* Full width on smaller screens */
     }
